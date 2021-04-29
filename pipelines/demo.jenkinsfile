@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo something less'
+                sh 'echo something'
             }
         }
     }
